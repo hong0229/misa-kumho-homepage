@@ -1,5 +1,19 @@
 # 미사금호 홈페이지
 
+이 저장소의 `dist/`에는 홈페이지 HTML, CSS, JavaScript, 사진과 현장 브리핑 37쪽이 들어 있습니다.
+
+## Vercel 배포
+
+- GitHub 저장소: `hong0229/misa-kumho-homepage`
+- 운영 브랜치: `main`
+- Framework Preset: `Other`
+- Root Directory: `./`
+- Output Directory: `dist` (`vercel.json`에 지정)
+- 별도 패키지 설치나 빌드 과정 없이 정적 파일을 배포합니다.
+- GitHub의 `main` 변경 사항은 연결된 Vercel 프로젝트에서 자동으로 배포됩니다.
+- 로컬 확인: Node.js가 설치된 환경에서 `node preview.mjs` 실행 후 `http://127.0.0.1:4173` 접속
+
+
 ## [홈페이지 바로가기](https://misa-central-xi-kumho.hjnongam.chatgpt.site)
 
 카카오톡으로 공유할 주소: **https://misa-central-xi-kumho.hjnongam.chatgpt.site**
